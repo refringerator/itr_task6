@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import Tets from "./components/Tets";
+
 function App() {
   const [count, setCount] = useState(0);
 
@@ -11,6 +13,7 @@ function App() {
           count is {count}
         </button>
       </div>
+      <Tets />
     </>
   );
 }
